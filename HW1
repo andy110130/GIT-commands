@@ -1,0 +1,47 @@
+
+JSON
+1. Перейти на сайт https://github.com/andy110130 — Repositories  — New —   Создать новый репозиторий  JSON.
+2.  Открыть терминал (Git Bash) — команда git clone https://github.com/andy110130/JSON.git (ссылку взять нажав кнопку  Code перейдя в репозиторий через веб-интерфейс).
+3. Командой touch new.json создать файл.
+4. Командой git add new.json добавить файл в репозитоий.
+5. Закомитить файл  коммандой git commit -m ‘new.json’
+6.  Командой git push отправляем файл  new.json на внешний репозиторий.
+7. Командой vim new.json  открыть файл в ввести информацию в формате  JSON.
+8. Командами git add new.json — git commit -m ‘second commit’ — git push  добавить файл во внешний репозиторий.
+9.   Командой vim preferences.json создать файл и внести в него информацию о своих предпочтениях.
+10.  Командой vim skills.json создать файл и внести в него информацию о скилах, которые будут получены за время прохождения курса.
+11. Командами git add . | git commit -m ‘third commit’ — git push внести файлы skills.json и preferences.json во внешний репозиторий.
+12. Через веб-интерфейс создать файл  bug_report.json.
+13.  Через веб-интерфейс внести изменения в файл bug_report.json в виде багрепорта в формате  JSON.
+14. Сохранить изменения в файле bug_report.json.
+15. Командами git fetch — git pull синхронизировать содержимое внешнего и локального репозиторий. 
+
+XML
+1. https://github.com/andy110130 — Repositories  — New —   Создать новый репозиторий XML.
+2.  Командой git clone https://github.com/andy110130/XML.git клонировать репозиторий на внешний компьютер.
+3. Командой touch new.xml создать файл new.xml.
+4. Командой git add new.xml добавить файл в репозиторий. 
+5. Командой git commit -m ’new commit’ закомитить файл. 
+6.  Командой git push  отправить файл на внешний репозиторий. 
+7. Командой vim new.xml внести информацию в файл. 
+8. Командами git add new.xml — git commit -m ‘second commit’ — git push   отправить файл на внешний репозиторий. 
+9. Командой  vim preferences.xml  создать файл preferences.xml  и внести в него информацию.
+10. Командой vim skills.xml создать файл skills.xml и внести в него инфорацию.
+11. Командами git add . | git commit -m ‘third commit’ — git push   отправить preferences.xml и skills.xml на внешний репозиторий. 
+12. Через веб-интерфейс создать на внешнем репозитории файл  bug_report.xml  и внести в него информацию. 
+13.  Синхронизировать внешний и локальный репозитории командами Git Fetch - Git pull. 
+
+TXT 
+1.  https://github.com/andy110130 — Repositories  — New —   Создать новый репозиторий TXT.
+2. Скопировать командой git clone https://github.com/andy110130/TXT.git клонировать репозиторий на внешний компьютер.
+3.Командой touch new.txt создать файл new.txt.
+4. Добавить файл new.txt в репозиторий командой git add new.txt.
+5. Закомитить файл  new.txt командой git commit -m ‘new commit’.
+6. Командой git push отправить файл new.txt на внешний репозиторий. 
+7. Командой vim new.txt изменить содержимое файла new.txt.
+8. Командами Командами git add new.txt — git commit -m ‘second commit’ — git push   отправить файл на внешний репозиторий. 
+9.  Командой vim preferences.txt создать файл и внести в него изменения. 
+10. Командой vim skills.txt создать файл и внести в него изменения. 
+11. Командами Командами git add . | git commit -m ‘third commit’ — git push отправить файлы preferences.txt и skills.txt на внешний репозиторий.
+12. Через веб-интерфейс создать на внешнем репозитории файл  bug_report.txt и внести в него информацию. 
+13.  Синхронизировать внешний и локальный репозитории командами  git fetch — git pull. 
